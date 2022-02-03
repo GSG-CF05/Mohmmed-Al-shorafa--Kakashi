@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: cursive;
 }
+/* start header  */
 header {
   display: flex;
   justify-content: space-between;
@@ -28,7 +30,7 @@ header {
   text-align: center;
   border-bottom: 1px solid wheat;
   padding: 8%;
-  width: 64vw;
+  width: 74vw;
   display: block;
 }
 .nav-items-moblie a {
@@ -39,6 +41,20 @@ header {
 .icon-nav:hover .nav-items-moblie {
   display: block;
   position: absolute;
-  right: -41px;
+  right: -35px;
   top: 84px;
+}
+/* end the header  */
+/* start figure  */
+figure h1 {
+  color: #136f63;
+  font-size: 1.7rem;
+  text-align: center;
+  padding-top: 24%;
+  padding-bottom: 20%;
+}
+figure img {
+  width: 83vw;
+  display: block;
+  margin: auto;
 }
