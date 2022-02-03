@@ -242,7 +242,7 @@ main {
 .my-project {
   padding-top: 80px;
   background-color: #fffcf2;
-  padding-bottom: 200px;
+  padding-bottom: 0;
 }
 .my-project h2 {
   font-size: 40px;
@@ -471,4 +471,24 @@ textarea {
 .contact-Me button {
   display: block;
   margin: auto;
+}
+/* end the contact section  */
+/* start the footer  */
+footer {
+  background-color: #403d39;
+}
+footer p {
+  padding: 20px 0;
+  text-align: center;
+  color: white;
+}
+/* end the footer  */
+.top {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  z-index: 10;
+}
+.top img {
+  width: 70px;
 }
