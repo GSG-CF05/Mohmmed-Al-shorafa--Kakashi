@@ -55,11 +55,26 @@
   .about-me div h3::before {
     right: 310px;
   }
-  
+
   .title-skills::before {
     right: 590px;
   }
   .skill {
     margin: 0 22%;
+  }
+  section .cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .my-project h2 {
+    padding: 30px 0 30px 0;
+  }
+  section .cards .card {
+    width: 25%;
+  }
+  .my-project h2::before {
+    bottom: 20px;
+    right: 590px;
   }
 }
