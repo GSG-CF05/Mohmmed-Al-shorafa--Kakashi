@@ -238,3 +238,178 @@ main {
   font-weight: 700;
   font-size: 20px;
 }
+/* end skills  */
+.my-project {
+  padding-top: 80px;
+  background-color: #fffcf2;
+  padding-bottom: 200px;
+}
+.my-project h2 {
+  font-size: 40px;
+  color: #eb5e28;
+  position: relative;
+  text-align: center;
+}
+.my-project h2::before {
+  position: absolute;
+  content: '';
+  width: 170px;
+  height: 7px;
+  border-radius: 2px 12px 2px 12px;
+  bottom: -14px;
+  right: 118px;
+  background-color: #eb5e28;
+}
+section .cards {
+  padding: 0 30px;
+  /* display: flex; */
+}
+section .cards .card {
+  position: relative;
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+  width: 90%;
+  height: 300px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+section .cards .card::after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  transition: 1s ease;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(21, 22, 22, 0.267);
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px;
+
+  /* opacity: 50%; */
+  z-index: 1;
+}
+section .cards .card:hover:after {
+  position: absolute;
+  content: '';
+  width: 100%;
+
+  height: 0%;
+  left: 0;
+  background-color: gold;
+  opacity: 0;
+}
+
+section .cards .card:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+
+section .cards .card img {
+  display: block;
+  margin: 20px auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.card h3 {
+  padding-bottom: 20px;
+  font-weight: 900;
+  color: #b84e25;
+}
+.card button a {
+  text-decoration: none;
+  color: #f5da40;
+}
+.c-btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+.btn-7 {
+  background: linear-gradient(
+    0deg,
+    rgba(255, 151, 0, 1) 0%,
+    rgba(251, 75, 2, 1) 100%
+  );
+  line-height: 42px;
+  padding: 0;
+  border: none;
+}
+.btn-7 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-7:before,
+.btn-7:after {
+  position: absolute;
+  content: '';
+  right: 0;
+  bottom: 0;
+  background: rgba(251, 75, 2, 1);
+  box-shadow: -7px -7px 20px 0px rgba(255, 255, 255, 0.9),
+    -4px -4px 5px 0px rgba(255, 255, 255, 0.9),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.2), 4px 4px 5px 0px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+.btn-7:before {
+  height: 0%;
+  width: 2px;
+}
+.btn-7:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-7:hover {
+  color: rgba(251, 75, 2, 1);
+  background: transparent;
+}
+.btn-7:hover:before {
+  height: 100%;
+}
+.btn-7:hover:after {
+  width: 100%;
+}
+.btn-7 span:before,
+.btn-7 span:after {
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 0;
+  background: rgba(251, 75, 2, 1);
+  box-shadow: -7px -7px 20px 0px rgba(255, 255, 255, 0.9),
+    -4px -4px 5px 0px rgba(255, 255, 255, 0.9),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.2), 4px 4px 5px 0px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+.btn-7 span:before {
+  width: 2px;
+  height: 0%;
+}
+.btn-7 span:after {
+  height: 2px;
+  width: 0%;
+}
+.btn-7 span:hover:before {
+  height: 100%;
+}
+.btn-7 span:hover:after {
+  width: 100%;
+}
