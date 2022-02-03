@@ -1,0 +1,58 @@
+/*mobile*/
+.nav-desk-top {
+  display: none;
+}
+@media (min-width: 767px) {
+  header {
+    padding: 0 1%;
+    border: none;
+    display: flex;
+    position: sticky;
+    z-index: 15;
+    top: 0;
+  }
+  .logo {
+    padding: 1%;
+  }
+  .icon-nav {
+    display: none;
+  }
+  .nav-desk-top {
+    display: block;
+    width: 40%;
+  }
+
+  .nav-desk-top a {
+    font-weight: 600;
+    text-decoration: none;
+    color: #84cae7;
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 35px 10px;
+  }
+  .nav-desk-top li {
+    display: inline-block;
+    padding: 0px;
+    margin: -2% 0;
+  }
+
+  .nav-desk-top li:hover a {
+    color: rgb(253, 247, 247);
+    background-color: #22aaa1;
+  }
+  figure h1 {
+    font-size: 3rem;
+    padding-top: 11%;
+    padding-bottom: 8%;
+  }
+  figure img {
+    width: 30vw;
+    display: block;
+    margin: auto;
+    padding-bottom: 20%;
+  }
+  .about-me div h3::before {
+    right: 310px;
+  }
+}
