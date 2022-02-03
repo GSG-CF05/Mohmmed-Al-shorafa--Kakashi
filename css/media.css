@@ -29,7 +29,7 @@
     display: block;
     text-decoration: none;
     font-size: 20px;
-    padding: 35px 10px;
+    padding: 38px 10px;
   }
   .nav-desk-top li {
     display: inline-block;
@@ -54,5 +54,12 @@
   }
   .about-me div h3::before {
     right: 310px;
+  }
+  
+  .title-skills::before {
+    right: 590px;
+  }
+  .skill {
+    margin: 0 22%;
   }
 }
