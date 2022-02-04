@@ -5,6 +5,10 @@
   font-family: cursive;
   transition: 1s ease all;
 }
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
 /* start header  */
 header {
   display: flex;
@@ -495,4 +499,7 @@ footer p {
 }
 .top img {
   width: 70px;
+}
+#home {
+  transition: 5s ease all;
 }
